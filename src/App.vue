@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import CalendarTestComponent from './components/CalendarTestComponent.vue'
+import CalendarTestComponent from './components/Calendar/CalendarTestComponent.vue'
 </script>
 
 <template>
   <div>
-    <CalendarTestComponent />
+    <CalendarTestComponent language="en" size="large" />
   </div>
 </template>
 
